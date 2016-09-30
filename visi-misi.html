@@ -11,10 +11,12 @@
   <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
   <link rel="stylesheet" href="css/owl.theme.css" type="text/css">
+  <link rel="stylesheet" href="css/jquery.mmenu.all.css" type="text/css">
 
   <script src="js/jquery.min.js" type="text/javascript"></script>
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
   <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.mmenu.all.min.js" type="text/javascript"></script>
 
   <script type="text/javascript">
       var map;
@@ -101,7 +103,7 @@
     <div class="container">
     <div class="media">
       <div class="media-left media-middle">
-        <a href="index.html">
+        <a href="#">
           <img class="media-object" alt="Singkawang" src="images/logo_singkawang.png" width="50">
         </a>
       </div>
@@ -113,17 +115,36 @@
   </div>
   </div>
 
+  <nav id="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><span>About us</span>
+        <ul>
+          <li><a href="#about/history">History</a></li>
+          <li><span>The team</span>
+            <ul>
+              <li><a href="#about/team/management">Management</a></li>
+              <li><a href="#about/team/sales">Sales</a></li>
+              <li><a href="#about/team/development">Development</a></li>
+            </ul>
+          </li>
+          <li><a href="#about/address">Our address</a></li>
+        </ul>
+      </li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <nav class="navbar navbar-default clear-bot">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <a href="#menu" class="navbar-toggle collapsed">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>
-
+      </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -132,7 +153,7 @@
       <ul class="nav navbar-nav">
         <li class="index6"><a class="home" href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a></li>
         <li class="dropdown index5">
-          <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tentang Kami <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tentang Kami <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Struktur Organisasi</a></li>
             <li><a href="visi-misi.html">Visi Misi</a></li>
@@ -233,6 +254,32 @@ jQuery(function($){
 
   $(window).resize(function(){
       handleResize();
+  });
+
+  $('nav#menu').mmenu({
+    extensions	: [ 'effect-slide-menu', 'shadow-page', 'shadow-panels' ],
+    counters	: true,
+    navbar 		: {
+      title		: 'Advanced menu'
+    },
+    navbars		: [
+      {
+        position	: 'top',
+        content		: [ 'searchfield' ]
+      }, {
+        position	: 'top',
+        content		: [
+          'prev',
+          'title',
+          'close'
+        ]
+      }, {
+        position	: 'bottom',
+        content		: [
+          '<a href="http://mmenu.frebsite.nl/wordpress-plugin.html" target="_blank">WordPress plugin</a>'
+        ]
+      }
+    ]
   });
 
   $('#modal-search').modal('hide');
