@@ -1,0 +1,239 @@
+a, a:hover {
+    text-decoration: none;
+    transition: all 200ms ease 0s;
+}
+.sp-toolbar {
+    background: #5aa339;
+}
+.uk-icon-button {
+    color: #d2ebc7;
+    border: medium none;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: none;
+    width: 30px;
+}
+.uk-icon-button:hover {
+  color: #fff;
+  background-color: #69bd43;
+}
+.uk-icon-button-footer {
+    color: #d2ebc7;
+    border: medium none;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: none;
+    width: 30px;
+}
+.uk-icon-button-footer:hover {
+  color: #fff;
+  background-color: transparent;
+}
+.link-hover {
+  color: #fff;
+  background-color: #69bd43;
+}
+.sp-toolbar-l, .sp-toolbar-l a {
+    color: #d2ebc7;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+.sp-toolbar-l a:hover {
+    color: #fff;
+}
+.clear-bot {
+  margin-bottom: 0 !important;
+}
+.clear-top {
+  margin-top: 0 !important;
+}
+.clear-padding {
+  padding: 0 !important;
+}
+.title-news {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.navbar-default {
+    background: url('../images/mainnav-background.png') no-repeat center top transparent !important;
+    border: 0 solid transparent !important;
+    border-radius: 0 !important;
+}
+.navbar-default .navbar-nav > li {
+  margin-right: -70px;
+}
+.navbar-default .navbar-nav > li > a {
+  background: url('../images/menu-item-normal.png') no-repeat center right transparent !important;
+    color: #d2ebc7 !important;
+    font-size: 16px;
+    line-height: 22px !important;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.navbar-default .navbar-nav > li > a.home {
+  background: url('../images/menu-item-active.png') no-repeat top -4px right transparent !important;
+  color: #fff !important;
+  font-size: 16px;
+  line-height: 22px !important;
+  padding-right: 70px;
+  padding-left: 10px;
+}
+.navbar-nav > li > a.active {
+  background: url('../images/menu-item-active.png') no-repeat top -4px right transparent !important;
+}
+.navbar-nav > li > .active:hover {
+  background: url('../images/menu-item-active.png') no-repeat top -4px right transparent !important;
+}
+.index1{
+  z-index: 2;
+}
+.index2{
+  z-index: 3;
+}
+.index3{
+  z-index: 4;
+}
+.index4{
+  z-index: 5;
+}
+.index5{
+  z-index: 6;
+}
+.index6{
+  z-index: 7;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background: url('../images/menu-item-normal.png') no-repeat center right transparent;;
+    color: #fff !important;
+}
+.navbar-default .navbar-nav > li > a.home:hover, .navbar-default .navbar-nav > li > a.home:focus {
+    background: url('../images/menu-item-active.png') no-repeat top -4px right transparent !important;;
+    color: #fff !important;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+.title-brand {
+  background: #69bd43 !important;
+  color: #fff !important;
+  height: auto !important;
+  line-height: 32px !important;
+  padding: 20px 15px !important;
+  position: relative;
+  z-index: 1;
+}
+h2.media-heading {
+  margin: 5px 0 0 0;
+  font-size: 25px;
+}
+h5.media-sub {
+  margin: 0 0 5px 0;
+}
+.responsive-img {
+  width: 100%;
+}
+.clear-col-pad {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.home-vm {
+  background: #69bd43 url("../images/pattern2.png") repeat scroll 0 0;
+  padding: 15px 0 30px 0;
+}
+.text-white {
+  color: #fff;
+}
+.home-organisasi, .home-news {
+  padding: 30px 0;
+}
+.top-btn {
+  margin-top: 15px;
+}
+.sp-bottom {
+    background: #373c40 url("../images/pattern2.png") repeat scroll 0 0;
+    color: #8d969d;
+    padding: 35px 0;
+}
+.sp-footer::after {
+    background: #393f43 none repeat scroll 0 0;
+}
+.sp-footer::after {
+    content: " ";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.sp-footer {
+    background: #5aa339 url("../images/mainnav-background.png") no-repeat scroll center top;
+}
+.sp-footer {
+    color: #d2ebc7;
+    padding: 20px 0 15px 0;
+}
+.sp-footer ul.nav {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 5px;
+    padding: 0;
+}
+ul.arrow, ul.arrow-double, ul.tick, ul.cross, ul.star, ul.rss {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+ul.arrow li {
+    margin-right: 5px !important;
+    content: "\f0da";
+}
+
+.sp-bottom a:not(.btn) {
+    color: #8d969d;
+}
+.margin-item {
+  padding: 0 5px;
+}
+.custom-panel {
+  border-width: 2px 0 0 2px !important;
+}
+.custom-panel-heading {
+  float:left;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 0 !important;
+  border-right: 1px solid #ddd;
+}
+.bg-orange {
+background: rgba(245,61,0,1);
+background: -moz-linear-gradient(left, rgba(245,61,0,1) 0%, rgba(217,54,0,1) 35%, rgba(196,42,0,1) 79%, rgba(196,42,0,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(245,61,0,1)), color-stop(35%, rgba(217,54,0,1)), color-stop(79%, rgba(196,42,0,1)), color-stop(100%, rgba(196,42,0,1)));
+background: -webkit-linear-gradient(left, rgba(245,61,0,1) 0%, rgba(217,54,0,1) 35%, rgba(196,42,0,1) 79%, rgba(196,42,0,1) 100%);
+background: -o-linear-gradient(left, rgba(245,61,0,1) 0%, rgba(217,54,0,1) 35%, rgba(196,42,0,1) 79%, rgba(196,42,0,1) 100%);
+background: -ms-linear-gradient(left, rgba(245,61,0,1) 0%, rgba(217,54,0,1) 35%, rgba(196,42,0,1) 79%, rgba(196,42,0,1) 100%);
+background: linear-gradient(to right, rgba(245,61,0,1) 0%, rgba(217,54,0,1) 35%, rgba(196,42,0,1) 79%, rgba(196,42,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f53d00', endColorstr='#c42a00', GradientType=1 );
+color: #fff !important;
+border-color: rgba(245, 61, 0, 1) !important;
+}
+.panel-orange {
+    border-color: rgba(196, 42, 0, 1) !important;
+}
+.panel-orange > .panel-heading {
+    background-color: rgba(196, 42, 0, 1);
+    border-color: rgba(245, 61, 0, 1) !important;
+    color: #fff;
+}
+.bread {
+  margin: 15px 0;
+  color: #818181;
+}
